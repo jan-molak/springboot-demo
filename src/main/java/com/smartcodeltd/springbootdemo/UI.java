@@ -21,9 +21,9 @@ public class UI {
     String index(Model model) {
 
         model.addAttribute("todos", aListOf(
-            "Make to do list",
+            "Make a to do list",
             "Check off first thing on the list",
-            "Realize you've already accomplished two things",
+            "Realise you've already accomplished two things",
             "Reward yourself with a nap"
         ));
 
