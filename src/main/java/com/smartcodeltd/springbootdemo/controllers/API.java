@@ -1,4 +1,4 @@
-package com.smartcodeltd.springbootdemo;
+package com.smartcodeltd.springbootdemo.controllers;
 
 import com.smartcodeltd.springbootdemo.domain.Task;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

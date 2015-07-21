@@ -1,4 +1,4 @@
-package com.smartcodeltd.springbootdemo;
+package com.smartcodeltd.springbootdemo.controllers;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.stereotype.Controller;
