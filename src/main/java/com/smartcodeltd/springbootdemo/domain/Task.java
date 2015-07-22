@@ -23,8 +23,4 @@ public class Task {
     public static Task task(int id, String value) {
         return new Task(id, value);
     }
-
-    public static List<Task> aListOf(Task... tasks) {
-        return Arrays.asList(tasks);
-    }
 }

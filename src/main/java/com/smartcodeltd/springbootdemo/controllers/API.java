@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-import static com.smartcodeltd.springbootdemo.domain.Task.aListOf;
+import static com.smartcodeltd.springbootdemo.answerables.Sugar.aListOf;
 import static com.smartcodeltd.springbootdemo.domain.Task.task;
 
 @RestController

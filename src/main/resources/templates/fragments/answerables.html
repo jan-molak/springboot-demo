@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<body>
+
+    <div th:fragment="Choice(answerable)">
+
+        <label th:for="${answerable.id}"
+               th:text="${answerable.question}"
+               class="col-sm-4 control-label" />
+
+        <div class="col-sm-6">
+            <select class="form-control"
+                    th:id="${answerable.id}">
+                <option th:each="option : ${answerable.options}" th:text="${option}"></option>
+            </select>
+        </div>
+    </div>
+
+    <div th:fragment="SingleLineInput(answerable)">
+
+        <label th:for="${answerable.id}"
+               th:text="${answerable.question}"
+               class="col-sm-4 control-label" />
+
+        <div class="col-sm-6">
+            <input type="text" class="form-control" th:id="${answerable.id}" />
+        </div>
+    </div>
+
+    <div th:fragment="YesNo(answerable)">
+
+        <label th:for="${answerable.id}"
+               th:text="${answerable.question}"
+               class="col-sm-4 control-label" />
+
+        <div class="col-sm-6">
+            <input type="checkbox" th:id="${answerable.id}" value="yes" />
+        </div>
+    </div>
+</body>
+</html>
